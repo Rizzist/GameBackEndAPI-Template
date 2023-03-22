@@ -9,7 +9,8 @@ B: Setup your PostgresSQL Database. If you are using CPanel, you must follow a s
 ![image](https://user-images.githubusercontent.com/12385263/227036741-590b38e3-f8a5-472a-b221-c1ef2cf4fe96.png)
 C: *SERVER ONLY* Set your static root and media root based on your server name
 ![image](https://user-images.githubusercontent.com/12385263/227036993-21924e14-7997-46b0-8a62-c1a972bb2496.png)
-D: *ONLY IF YOU HAVE SETUP SMPT* Set up your smtp at the end of the settings files
+D: *ONLY IF YOU HAVE SETUP SMPT* Set up your smtp at GRAPHQL_AUTH and at the end of the settings files
+![image](https://user-images.githubusercontent.com/12385263/227039483-5ef22954-68aa-4d11-84a5-b691952a045e.png)
 ![image](https://user-images.githubusercontent.com/12385263/227037151-e19f4697-e296-4e8d-85e3-fc0996dcec9f.png)
 E: *ONLY WHEN LAUNCHING TO PRODUCTION* Change the settings file from the default one (settings_dev.py) to the server one (settings.py)
 ![image](https://user-images.githubusercontent.com/12385263/227037366-ca5e33ca-26a0-4153-9e1e-872370985a3b.png)
