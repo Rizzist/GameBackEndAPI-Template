@@ -195,7 +195,7 @@ GRAPHQL_JWT = {
 GRAPHQL_AUTH = {
         'LOGIN_ALLOWED_FIELDS': ['email', 'username'],
         'SEND_ACTIVATION_EMAIL': True,
-        'EMAIL_FROM': "noreply.talabe@gmail.com",
+        'EMAIL_FROM': "noreply.gamers@gmail.com",
 }
 
 SECURE_SSL_REDIRECT=False
