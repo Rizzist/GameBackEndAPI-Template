@@ -22,7 +22,9 @@ B: Go to your terminal and paste the CMD Command. Then type the following:
 - python manage.py migrate
 - python manage.py collectstatic
 - python manage.py runserver
+
 This will finish your server setup. 
+
 C: Lastly check your url www.*MyURL*.com/graphql/ if it is working, success! If not, ask ChatGPT or google it bro 
 
 
