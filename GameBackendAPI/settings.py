@@ -159,12 +159,6 @@ STATICFILES_DIRS = [
 ]
 
 
-#STATIC_ROOT = "/home/rizzdir3/rizz3d.ir/static"
-
-#MEDIA_URL ="/home/rizzdir3/media"
-#MEDIA_ROOT = "/home/rizzdir3/rizz3d.ir/media"
-
-
 AUTH_USER_MODEL = "Gamers.ExtendUser"
 
 GRAPHENE = {
@@ -206,7 +200,7 @@ GRAPHQL_JWT = {
 GRAPHQL_AUTH = {
         'LOGIN_ALLOWED_FIELDS': ['email', 'username'],
         'SEND_ACTIVATION_EMAIL': True,
-        'EMAIL_FROM': "noreply.talabe@gmail.com",
+        'EMAIL_FROM': "noreply.gamers@gmail.com",
 }
 
 SECURE_SSL_REDIRECT=True
