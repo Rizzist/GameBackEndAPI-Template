@@ -1,7 +1,9 @@
 # GameBackEndAPI-Template
 This is a template that can be used with the UE4 GraphQL Plugin in order to make a near complete backend for your videogame. A few steps are involved in setting this up.
 It uses the following stack:
+
 REACT-GRAPHQL/APOLLO-PYTHON/DJANGO-POSTGRESQL
+
 
 ## Step 1: Setting up your settings file*s*
 On both your settings.py and your settings_dev.py, do the following:
