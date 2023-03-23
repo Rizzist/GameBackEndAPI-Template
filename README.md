@@ -20,9 +20,12 @@ E: *ONLY WHEN LAUNCHING TO PRODUCTION* Change the settings file from the default
 ![image](https://user-images.githubusercontent.com/12385263/227037366-ca5e33ca-26a0-4153-9e1e-872370985a3b.png)
 
 ## Step 2: Uploading to your Provider (I use CPanel, steps shows below)
-A: Upload your files and create a python app in the directory you uploaded. Make sure to copy the CMD command for step 2
+A: Setup your PostgreSQL Database on your server (You can follow any online tutorial but MAKE SURE TO WRITE DOWN the database name, and create an account. Then use those credentials in your settings.py (the server settings file) to make this work. Also check the correct port is used. Without this step the backend won't work!
+![image](https://user-images.githubusercontent.com/12385263/227189860-f5f1834c-b237-4d89-98a1-029599c2f571.png)
+
+B: Upload your files and create a python app in the directory you uploaded. Make sure to copy the CMD command for step 2
 ![image](https://user-images.githubusercontent.com/12385263/227038278-4576cf0f-c135-405d-8798-3296c7d738a9.png)
-B: Go to your terminal and paste the CMD Command. Then type the following:
+C: Go to your terminal and paste the CMD Command. Then type the following:
 - python manage.py makemigrations
 - python manage.py migrate
 - python manage.py collectstatic
